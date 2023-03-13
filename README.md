@@ -1,1 +1,2 @@
-My first task on GIT
+My first task on GIT 
+Ver.2
