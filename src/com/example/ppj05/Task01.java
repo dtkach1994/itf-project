@@ -5,11 +5,11 @@ public class Task01 {
     public static void main(String[] args) {
         // Input three numbers from the keyboard.
         Scanner scanner = new Scanner(System.in);
-        System.out.print("Введите число a: ");
+        System.out.print("Input number a: ");
         int a = scanner.nextInt();
-        System.out.print("Введите число b: ");
+        System.out.print("Input number b: ");
         int b = scanner.nextInt();
-        System.out.print("Введите число c: ");
+        System.out.print("Input number c: ");
         int c = scanner.nextInt();
         scanner.close();
 
@@ -17,7 +17,7 @@ public class Task01 {
         int middleValue = findMiddleValue(a, b, c);
 
         // Printing the average value to the screen.
-        System.out.println("Среднее значение: " + middleValue);
+        System.out.println("Average value: " + middleValue);
     }
 
     public static int findMiddleValue(int a, int b, int c) {
