@@ -3,3 +3,5 @@ Ver.2
 ctrl+shift+K = push commit
 ctrl+K = commit
 ctrl+t = git pull = update project
+ctrl+shift+J = inline
+ctrl+alt+L = format
