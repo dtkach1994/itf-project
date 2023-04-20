@@ -1,6 +1,6 @@
 package com.example.m02;
 
-public class Task01 {
+public class Task36 {
 
 
     public int changeMoneyAmount(float startAmount, float toRemove) {
@@ -20,7 +20,7 @@ public class Task01 {
     }
 
     public static void main(String[] args) {
-        Task01 converter = new Task01();
+        Task36 converter = new Task36();
 
         int changedAmount = converter.changeMoneyAmount(1000.0f, 300.0f);
         System.out.println("The remaining amount of money after withdrawal: " + changedAmount);
