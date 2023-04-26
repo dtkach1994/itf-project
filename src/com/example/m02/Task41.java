@@ -10,9 +10,9 @@ public class Task41 {
         if (name == null || name.isEmpty()) {
             return false;
         }
-        int len = name.length();
+        int length  = name.length();
         boolean startsWithDigit = name.charAt(0) >= '0' && name.charAt(0) <= '9';
-        boolean endsWithDigit = name.charAt(len - 1) >= '0' && name.charAt(len - 1) <= '9';
+        boolean endsWithDigit = name.charAt(length  - 1) >= '0' && name.charAt(length  - 1) <= '9';
         return startsWithDigit && endsWithDigit;
     }
 }

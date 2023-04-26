@@ -13,7 +13,6 @@ public class Task38 {
             return null;
         }
 
-        String fullName = firstName.toLowerCase() + " " + lastName.toUpperCase();
-        return fullName;
+        return firstName.toLowerCase() + " " + lastName.toUpperCase();
     }
 }

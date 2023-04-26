@@ -18,5 +18,13 @@ public class Task42 {
             }
         }
         return true;
+        /* public static boolean isInvisibleName(String name) {
+        if (name == null || name.isBlank()) {
+            return true;
+        }
+        String trimmed = name.trim();
+        return trimmed.isEmpty();
+    }
+         */
     }
 }

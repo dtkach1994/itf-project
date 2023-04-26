@@ -1,7 +1,5 @@
 package com.example.m02;
 
-import org.jetbrains.annotations.NotNull;
-
 public class Task45 {
     public static void main(String[] args) {
         System.out.println("[null]: " + makeHalfOfName(null));
@@ -14,7 +12,7 @@ public class Task45 {
         if (name == null || name.isEmpty()) {
             return "";
         }
-        int lastIndex = (int) Math.ceil(name.length() / 2.0);
+        int lastIndex = name.length() / 2 + (name.length() % 2 == 0 ? 0 : 1);
         return name.substring(0, lastIndex);
     }
 }
